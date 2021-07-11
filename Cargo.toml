@@ -1,0 +1,22 @@
+[package]
+name = "h2l"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-log = "2.0"
+async-macros = "2.0"
+async-std = "1.9"
+bitflags = "1.2"
+bytes = "1.0"
+futures = "0.3"
+hpack = "0.3.0"
+http = "0.2.4"
+httparse = "1.4"
+log = "0.4"
+parking_lot = "0.11"
+
+[dev-dependencies]
+env_logger = "0.9"
